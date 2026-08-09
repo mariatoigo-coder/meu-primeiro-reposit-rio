@@ -50,9 +50,18 @@
          <p class="artigo-autor"> Por:Maria Ccecilia B Toigo</p>
          <p>Se você acha que história é só data,guerra e coisa chata...
               você claramente não conhece os babados que vou contar aqui</p>
-              <button>❤️</button>
+              <button>❤️ <span>0</span></button>
      </div>
     </main>
 
     </body>
+    <script>
+        const botao = document.querySelector("button")
+        botao.addEventListener("click" , botaoClicado)
+
+        function botaoClicado(){
+            console.log("fui")
+        }
+
+    </script>
 </html>
